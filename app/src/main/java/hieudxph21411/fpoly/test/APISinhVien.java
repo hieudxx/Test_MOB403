@@ -15,7 +15,7 @@ import retrofit2.http.Path;
 public interface APISinhVien {
 
     APISinhVien apiSV = new Retrofit.Builder()
-            .baseUrl("http://192.168.1.8:9999/api/")
+            .baseUrl("http://192.168.0.102:9999/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(APISinhVien.class);

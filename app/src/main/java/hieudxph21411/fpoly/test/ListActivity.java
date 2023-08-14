@@ -41,10 +41,7 @@ public class ListActivity extends AppCompatActivity {
                 add();
             }
         });
-
     }
-
-
     private void add() {
         DialogAddBinding dialogBinding = DialogAddBinding.inflate(getLayoutInflater());
         AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);

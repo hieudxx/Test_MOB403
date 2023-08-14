@@ -131,7 +131,6 @@ public class SinhVienAdapter extends RecyclerView.Adapter<SinhVienAdapter.ViewHo
                                         ListActivity.getData();
                                         dialog.dismiss();
                                     }
-
                                 }
 
                                 @Override
@@ -154,8 +153,6 @@ public class SinhVienAdapter extends RecyclerView.Adapter<SinhVienAdapter.ViewHo
                     editBinding.edImg.setText("");
                 }
             });
-
-
         });
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -180,7 +177,6 @@ public class SinhVienAdapter extends RecyclerView.Adapter<SinhVienAdapter.ViewHo
         public ViewHolder(@NonNull SvItemRcvBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
-
         }
     }
 }
